@@ -13,21 +13,38 @@
     <div class="container">
         <form>
             <div>
-                <label for="name" > Nev: *</label>
+                <label for="name"> Nev: *</label>
                 <input id="email" name="email" type="text" required>
             </div>
             <div>
-                <label for="email" >E-mail *</label>
-                <input id="email"  name="email" type="email" required>
+                <label for="email">E-mail *</label>
+                <input id="email" name="email" type="email" required>
             </div>
             <div>
-                <label for="address" > cim *</label>
+                <label for="address"> cim *</label>
                 <input type="address" name="address" type="text" required>
             </div>
             <div>
-                <label for="comment" >Megjegyzes *</label>
+                <label for="comment">Megjegyzes *</label>
                 <textarea id="comment" name="comment" rows="5"></textarea>
             </div>
+            <p>
+                <span>Elmult már 18 éves?</span>
+            <div>
+                <input checked id="igen" name="yes" type="checkbox" value="0">
+                <label for="igen">Igen</label>
+            </div>
+            <div>
+                <input id="nem" name="no" type="checkbox" value="300">
+                <label for="nem">Nem</label>
+            </div>
+            </p>
+            <p>
+            <span>Szeretne feliratkozni a hírlevelünkre?</span>
+            <div>
+                <input id="igen-2" type="checkbox">
+            </div>
+            </p>
         </form>
     </div>
 </body>
