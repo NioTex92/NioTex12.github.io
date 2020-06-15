@@ -102,31 +102,31 @@ color: blue;
 margin: 3px;
 border: 7px 3px 3px blue;
 box-shadow: 2px 2px 2px black;
+font-weight: 500;
+font-size: 25px;
 }
 
 #home-button {
 color: red;
 margin: 10px;
 box-shadow: 2px 2px 2px black;
-}
-
-.p {
-    color: red;
-}
-
-.all-txt {
-    position: relative;
-}
-#attention {
-    color: red;
-    border: 7px 3px 3px blue;
-    width: fit-content;
-    margin: 10px;
-    box-sizing: content-box;
+font-size: 25px;
 }
 
 #login {
     color: green;
     margin: 10px;
     box-shadow: 2px 2px 2px black;
+    font-size: 25px;
+}
+
+.kerdes {
+    font-weight: bolder;
+    font-size: 20px;
+    color: red;
+}
+#attention {
+    color: rgba(255, 0, 0, 0.87);
+    font-size: 40px;
+    font-weight: 150px;
 }
