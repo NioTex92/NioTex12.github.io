@@ -117,3 +117,10 @@ box-shadow: 2px 2px 2px black;
 .all-txt {
     position: relative;
 }
+#attention {
+    color: red;
+    border: 7px 3px 3px blue;
+    width: fit-content;
+    margin: 10px;
+    box-sizing: content-box;
+}
