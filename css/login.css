@@ -1,4 +1,4 @@
-body{
+body {
 background-color: #c5c5c5;
  }
 
@@ -28,5 +28,4 @@ background-color: #c5c5c5;
 
 .login-div input:focus {
     box-shadow: 2px 2px 3px #c0c0c0 ;
-
 }
