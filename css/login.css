@@ -29,3 +29,8 @@ background-color: #c5c5c5;
 .login-div input:focus {
     box-shadow: 2px 2px 3px #c0c0c0 ;
 }
+#home-button {
+    color: red;
+    margin: 10px;
+    box-shadow: 2px 2px 2px black;
+    }
