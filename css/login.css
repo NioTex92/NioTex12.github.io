@@ -1,0 +1,32 @@
+body{
+background-color: #c5c5c5;
+ }
+
+.login-div {
+     padding: 15px;
+     border: solid 1px #df1010;
+     display: inline-block;
+     box-shadow: 0px 0px 2px #777777;
+  }
+
+  .login-div input {
+    display: block;
+    margin: 7px;
+    background-color: grey;
+}
+
+.login-div input[ type="email"] {
+    border: solid 1px blue;
+}
+.login-div input[ type="password"] {
+    border: solid 1px red;
+}
+
+.login-div button:hover {
+    box-shadow: 2px 2px 3px #c0c0c0;
+}
+
+.login-div input:focus {
+    box-shadow: 2px 2px 3px #c0c0c0 ;
+
+}
