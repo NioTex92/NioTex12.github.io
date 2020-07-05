@@ -20,6 +20,9 @@ h1 {
     color: indigo;
     font-style: italic;
     max-width: fit-content;
+    margin-top: none;
+    visibility: visible;
+    position: unset;
 }
 
 .content2 {
