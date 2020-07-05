@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <title>Programer</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Log-in</title>
 </head>
 
 <body>
@@ -39,37 +39,31 @@
             </form>
         </div>
     </nav>
-
-    <h1>Hi Programmer!</h1>
-
-    <p id="content1">Mit adunk cserébe ha nálunk tanulsz?</p>
-
-    <h3 id="human1">Human Skills:</h3>
-    <ul id="felsorolas1">
-        <li>Communication</li>
-        <li>Understanding body language</li>
-        <li>Empathy</li>
-        <li>Self-awareness</li>
-        <li>Growth mindset</li>
-    </ul>
-
-    <h3 id="programer">Programer Skills:</h3>
-    <ul id="felsorolas2">
-        <li>Proficiency with programming languages</li>
-        <li>Learning concepts and applying them to other problems</li>
-        <li>Mathematical skills</li>
-        <li>Problem-solving capability</li>
-    </ul>
-
-    <p id="content2">Szeretnél elindulni a programozás kalandos útján?</p>
-    <p id="content3">Ha igen, akkor ezt a tanfolyamot neked hoztuk létre, mert itt az alapoktól kezdve vezetünk be ebbe
-        a rejtélyes,
-        bonyolultnak tűnő világba. Ha a jövőben szeretnéd hivatásként űzni vagy pusztán megtanulni a Java, C# vagy
-        Python nyelveket, ez a tanfolyam neked való, ugyanis itt mindent megtanulsz, ami elengedhetetlen része a
-        fejlődésednek. Mivel napjaink egyik hiányszakmája a programozás, ezért neked is érdemes lehet belevágni ebbe a
-        kalandba, hogy új területen próbáld ki magad. A tanfolyam elvégzése után teljes képet kapsz a programozás
-        alapjairól és könnyedén el tudod dönteni, melyik irányba szeretnél továbblépni. Vágj bele az új kalandba nálunk!
-    </p>
+    <div class="container">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Emlékezzen rám</label>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-lg">Bejelentkezés</button>
+                    <a href="reg.html" class="btn btn-secondary btn-lg active" role="button"
+                        aria-pressed="true">Regisztráció</a>
+                </form>
+            </div>
+            <div class="col-4"></div>
 </body>
 
 </html>
