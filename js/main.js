@@ -23,3 +23,26 @@ function calcAmount() {
    
 
 }
+
+let helpText = document.createElement("small");
+helpText.className = "form-text text-muted";
+helpText.innerHTML = "Kérem adjon hozzá feltétet.(Nem kötelező)";
+
+let parent = document.querySelector("div.form-group:nth-child(1)");
+parent.appendChild(helpText);
+
+// + parent.removeChild - eltávolítás
+let sendButton = document.querySelector("form .btn.btn-primary");
+/*
+sendButton.onclick = function() {
+   alert("HEllo JS!");
+}
+*/
+
+sendButton.addEventListener("click", function() {
+   alert("Biztos benne hogy leadja a rendelést?")
+});
+
+window.addEventListener("resize", function() {
+   console.log(this.innerHeight, innerWidth)
+});

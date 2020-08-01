@@ -7,11 +7,13 @@ CIKLIS AMÍG van még ADDIG
         összeg = összeg + szám
 CIKLUS VÉGE
 */
-let numericArray = [1, 3, 2, 5, 4, 7 ,6 ,9];
+let numericArray = [1, 3, 5, 4, 9, 8, 7];
+let sum = 0
 for (let i = 0; i < numericArray.length; i++) {
-let sum += numericArray[i];
+    sum+= numericArray[i];
 }
 console.log("Sum: ", sum);
+
 /*
 Számlálás algoritmusa:
 
