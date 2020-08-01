@@ -42,6 +42,6 @@ orderForm.addEventListener("submit", function (ev) {
 let alertCloseButtons = document.querySelectorAll(".close[data-dismiss='alert']")
 for (let i = 0; i < alertCloseButtons.length; i++) {
    alertCloseButtons[i].addEventListener("click", function (ev) {
-      console.log(ev)
+      this.parentElement.style.display = "none";
    });
 }
