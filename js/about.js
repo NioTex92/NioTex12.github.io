@@ -23,7 +23,7 @@ let createButtonGroup = parent => {
     btnInfo.innerHTML = '<i class="fas fa-sync-alt"></i>';
 
     let btnDanger = document.createElement ("button");
-    btnInfo.className = "btn-danger btn";
+    btnInfo.className ="btn-danger btn";
     btnInfo.innerHTML = '<i class="fas fa-sync-alt"></i>';
 
     group.appendChild(btnInfo);
